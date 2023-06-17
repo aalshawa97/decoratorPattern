@@ -9,6 +9,9 @@
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    #Formatted strings
+    message = f'Mashallah, {name} is a coder'
+    print(message)
 
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
@@ -21,9 +24,10 @@ def greet(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    #my_inp = input*
+    #print_hi('PyCharm')
     greet("World")
     name = input('What is your name?')
-    print('Hi ' + name)
+    print_hi(name)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
